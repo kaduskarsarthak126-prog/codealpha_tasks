@@ -23,3 +23,4 @@ length and character validation rules.
 
 ## Output
 The program displays the password strength based on given conditions.
+
