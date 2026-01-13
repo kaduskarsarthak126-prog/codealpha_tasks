@@ -1,15 +1,14 @@
-# codealpha_QuizApp
+# codealpha_PasswordStrengthChecker
 
 ## Description
-This is a simple console-based Quiz Application developed using Java.
-The application asks multiple-choice questions and calculates the final score
-based on the user's answers.
+This Java application checks the strength of a password based on
+length and character validation rules.
 
 ## Features
-- Multiple choice questions (MCQs)
-- User input through console
-- Automatic score calculation
-- Simple and beginner-friendly logic
+- Checks minimum password length
+- Validates uppercase and lowercase letters
+- Checks numbers and special characters
+- Displays password strength as Weak, Medium, or Strong
 
 ## Technologies Used
 - Java
@@ -18,9 +17,9 @@ based on the user's answers.
 ## How to Run
 1. Open terminal in this folder
 2. Compile the program:
-   javac QuizApp.java
+   javac PasswordStrengthChecker.java
 3. Run the program:
-   java QuizApp
+   java PasswordStrengthChecker
 
 ## Output
-The program displays questions one by one and shows the final score at the end.
+The program displays the password strength based on given conditions.
